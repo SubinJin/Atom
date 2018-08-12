@@ -9,6 +9,6 @@ for j in range(8) :
             lst.pop(k)
             lst.pop(j)
             lst.sort()
-            for l in range(7) :
+            for l in range(len(lst)) :
                 print(lst[l])
             break
