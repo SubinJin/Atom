@@ -4,7 +4,7 @@ def solution(s):
     lst = []
     for i in range(len(s)) :
         lst.append(ord(s[i]))
-    lst.sort(reverse =True)
+    lst.sort(reverse = True)
     for i in range(len(lst)) :
         answer = answer + chr(lst[i])
     return answer

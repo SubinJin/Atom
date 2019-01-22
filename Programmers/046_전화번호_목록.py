@@ -9,8 +9,14 @@ def solution(phone_book):
                 break
         if answer == False :
             break
-    #print(phone_book)
-    #print(phone_book[0])
-    #print(phone_book[1][0 : len(phone_book[0])])
 
     return answer
+'''
+def solution(phoneBook):
+    phoneBook = sorted(phoneBook)
+
+    for p1, p2 in zip(phoneBook, phoneBook[1:]):
+        if p2.startswith(p1):
+            return False
+    return True
+'''
