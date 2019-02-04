@@ -7,3 +7,6 @@ def solution(heights):
                 answer[len(heights)] = i + 1
                 break
     return answer
+
+for i in range(10, -1, -1) :
+    print(i)
